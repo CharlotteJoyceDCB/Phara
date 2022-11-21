@@ -1,4 +1,50 @@
 *{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+/*============================================================ NAVIGATION BAR ==========================================================*/
+.navbar{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    transition: 0.5s ease-out;
+    padding: 15px 0;
+}
+.navbar .navbar-brand img{
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.navbar .navbar-nav li{
+    padding: 0 10px;
+}
+.navbar .navbar-nav li .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.navbar .navbar-nav li:hover .nav-link{
+    color: #008aff;
+    background-color: #292929;
+}
+.navbar .navbar-toggler{
+    border-radius: 0;
+    border: 0;
+}
+.navbar .navbar-toggler i{
+    font-size: 28px;
+}
+.navbar .navbar-toggler:focus{
+    outline: 0;
+}
+.navbar.navbar-fixed{
+    background: #fff;
+    transition: 0.5s ease-out;
+}
+section{
+    padding: 4.5rem 0 1.5rem;
 }
